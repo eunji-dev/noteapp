@@ -1,15 +1,13 @@
-import React from 'react';
-import Header from './container/Header'
-import Form from './container/Form'
-import './App.css';
+import React from "react";
+import { Header, Home, Footer } from "./container";
+import "./assets/css/App.css";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Form />
-      {/* notes */}
-      {/* footer */}
+      <Home />
+      <Footer />
     </div>
   );
 }

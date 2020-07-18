@@ -1,0 +1,181 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+::-moz-selection {
+  background-color: black;
+  color: #fff;
+}
+
+::selection {
+  background-color: black;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+/* header */
+#header {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 2000;
+}
+
+.header__cover {
+  display: block;
+  width: 100%;
+  padding: 20px 35px;
+  margin-top: 37px;
+}
+
+.header__banner {
+  width: 100%;
+  float: right;
+  background: #111;
+  text-align: center;
+}
+
+.header__banner a {
+  display: inline-block;
+  padding: 13px 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 500;
+  color: #fff;
+  background-color: black;
+}
+
+.logo__area {
+  float: left;
+  height: 100%;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 14px;
+  text-transform: uppercase;
+}
+
+.logo__area a:hover {
+  color: darkgray;
+}
+
+.menu__area {
+  position: relative;
+  left: 0;
+  float: right;
+  width: 80%;
+  text-align: right;
+  padding-right: 20px;
+  box-sizing: border-box;
+  transition: 0.5s left ease;
+}
+
+.button__area a {
+  position: relative;
+  padding: 5px 12px 20px;
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.button__area a:hover {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* home */
+#home {
+}
+.home__bg {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  opacity: 1;
+  background-size: cover;
+  left: 0px;
+  top: 0px;
+  height: 100vh;
+}
+
+.home__bg.__01 {
+  background-image: url("../img/로맨틱크라운_룩북01.jpg");
+}
+
+.home__bg.__02 {
+  background-image: url("../img/로맨틱크라운_룩북02.jpg");
+}
+
+.home__bg.__03 {
+  background-image: url("../img/로맨틱크라운_룩북03.jpg");
+}
+
+.home__bg.__04 {
+  background-image: url("../img/로맨틱크라운_룩북04.jpg");
+}
+
+.home__bg.__05 {
+  background-image: url("../img/로맨틱크라운_룩북05.jpg");
+}
+
+/* footer */
+#footer {
+  width: 100%;
+  padding: 50px 0 30px;
+  text-align: center;
+}
+
+.footer__menus {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 70px;
+}
+
+.footer__menus a {
+  letter-spacing: 3px;
+}
+
+.footer__menus a:after {
+  content: " | ";
+}
+
+.footer__menus a.end:after {
+  content: none;
+}
+
+.logo__img {
+  display: inline-flex;
+  flex: auto;
+  background-image: url("../img/kirsh_logo.jpg");
+  height: 100px;
+  width: 100px;
+}
+
+.logo {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 23px;
+  letter-spacing: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.company__info {
+  font-size: 15px;
+  line-height: 8px;
+  list-style: none;
+}
+
+.company__info li a {
+  padding: 0 15px;
+  font-size: 11px;
+}
